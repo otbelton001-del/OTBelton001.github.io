@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6;
   color: #1d2430;
   background: #f4efe9;
 }
@@ -14,97 +13,65 @@ h3 {
 }
 
 .page {
-  max-width: 1000px;
+  max-width: 900px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
 
 h1 {
   background: #123a52;
-  color: #f8fbff;
-  padding: 1.5rem 1rem;
+  color: #ffffff;
   text-align: center;
-  letter-spacing: 0.1em;
+  padding: 1.5rem;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  letter-spacing: 0.1em;
 }
 
 .intro {
   background: #ffffff;
-  border-left: 7px solid #b64b41;
-  padding: 2rem;
-  margin-top: 1.5rem;
-}
-
-.intro h2 {
-  color: #1a4864;
-  font-size: 2.2rem;
+  border-left: 6px solid #b64b41;
+  padding: 1.5rem;
+  margin-top: 1rem;
 }
 
 .lead {
-  font-size: 1.08rem;
-  color: #2d3d4d;
   text-align: justify;
   text-indent: 1.5rem;
+  color: #2d3d4d;
 }
 
 .emphasis {
   color: #7c1d1d;
-  font-weight: 700;
+  font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.25rem;
-  margin-top: 2rem;
 }
 
 .car-card {
   background: #ffffff;
   border: 1px solid #dfeaf1;
-  border-radius: 14px;
-  padding: 1.5rem;
+  padding: 1rem;
+  margin-top: 1rem;
 }
 
 .car-card h3 {
   color: #b64b41;
-  font-size: 1.6rem;
-}
-
-.car-card p {
-  margin-bottom: 0;
-  color: #415263;
 }
 
 .feature-box {
-  margin-top: 2rem;
   background: #edf4f7;
-  border-radius: 14px;
-  padding: 2rem;
-}
-
-.feature-box h3 {
-  color: #123a52;
-  font-size: 2rem;
+  padding: 1.5rem;
+  margin-top: 1rem;
 }
 
 .feature-list {
   list-style: none;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
 }
 
 .feature-list li {
   background: #d6eaf1;
   color: #173f5f;
-  padding: 0.7rem 1rem;
-  border-radius: 999px;
-  font-weight: 700;
-  text-transform: uppercase;
+  padding: 0.5rem 0.75rem;
+  margin: 0.5rem 0;
   text-decoration: underline;
 }
