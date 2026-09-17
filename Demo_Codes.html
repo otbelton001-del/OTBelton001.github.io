@@ -1,0 +1,80 @@
+Color changing headers 
+<style>
+     h2 { color: aqua; } 
+        </style>
+
+
+
+
+
+
+
+
+
+
+Form method Control post and get
+<h1> Forms Demo</h1>
+<h2> Get Form</h2>
+<form> method= "get" action ="Demo_Codes.html">
+    <label> for="get-name"> What is your name?</label>
+    <input type ="text" id="get-name" name = "name"><br>
+    <label> for="get-quest"> What is your quest?</label>
+    <input type ="text" id="get-quest" name = "quest"><br>
+    <label> for = "get-pswd"> Password</label>
+    <label> for="get-color"> What is your favorite color?</label>
+    <select>id="get-color" name="color">
+        <option value="Throw him into the Pit of Despair">&mdash; Please select an answer &mdash;          "Get has the regular option while the Post for has the groupping label option to demonstrate both"
+        <option>Blue</option>
+        <option>Green</option>
+        <option>I don't know. AAAAAUUUUUGGGHHH!</option>
+        </option>
+    </select>
+    <input type="password" id="get-pswd"><br>
+    <input type ="submit"><input type="reset">
+
+<form>
+<h2> Post form </h2>
+<form> method = "post" action= "Demo_Codes.html"
+    <label> for="post-name"> What is your name?</label>
+    <input type ="text" id="post-name" name = "name"><br>
+    <label> for="post-quest"> What is your quest?</label>
+    <input type ="text" id="post-quest" name = "quest"><br>
+    <label> for = "post-pswd"> Password</label>
+    <label> for="post-color"> What is your favorite color?</label>
+    <select>id="post-color" name="color">
+        <option value="Throw him into the Pit of Despair">&mdash; Please select an answer &mdash;
+        <optgroup label="Colors">
+            <option>Blue</option>
+            <option>Green</option>
+        <optgroup>
+        <optgroup Label="Bad Answers">
+            <option>I don't know. AAAAAUUUUUGGGHHH!</option>
+        </optgroup>
+    </select>
+    <input type="password" id="post-pswd"><br>   
+    <input type ="submit"><input type="reset">
+     
+
+</form>
+
+Radio Buttons
+<p> I plant to graduate in:
+<label> for="get26"> I plan to graduate in:</label>
+<input type="radio" id="get26" name="grad-year"><label for="get26">2026</label><br>
+<input type="radio" id="get27" name="grad-year"><label for="get27">2027</label><br>
+<input type="radio" id="get28" name="grad-year"><label for="get28">2028</label><br>
+<input type="radio" id="get29" name="grad-year"><label for="get29">2029</label><br>
+</p>
+Checkbox
+<p> I like the following flavors of ice cream(Check all that apply): 
+    <input> type="checkbox" id="get-vanilla" name="vanilla"><label for="get-vanilla"></label><br>
+    <input> type="checkbox" id="get-chocolate" name="chocolate"><label for="get-chocolate"></label><br>
+    <input> type="checkbox" id="get-CookiesnCreme" name="CookiesnCreme"><label for="get-CookiesnCreme"></label><br>
+</p>
+hidden Item
+<input type="hidden" name ="not-really-bacon" value="Just kidding, I do like bacon not in Ice cream though".><br>
+<label for="get-airspeed"> What is the airspeed velocity of a swallow carrying a coconut?(m/s)</label>
+<input type ="number" name="airspeed" id="get-airspeed" min="0" max="10" step="0.1"><br> it doesn't need a break but I put one because it wasnn't in a paragraph tag and for post change "number" to "range" to add a slider bar for the post version
+Have the same thing for post operation's this what the get version just change all the get keys to post for the post version
+Checkbox addition to be able to select multiple options
+Field site
